@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E48731D6-FC16-44B7-8E7D-8B24482E9D87"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFB71C4F-1F30-4D71-BFC0-775F28134A50"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Packages/CommonServices/Sources/Networking/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "sendRequest(endpoint:responseType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63615DF2-0DED-485E-8F94-54E2A0A91E6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ingenious.Build.Task/Data/UserProviding/HTTPUsersProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getUsers(by:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63615DF2-0DED-485E-8F94-54E2A0A91E6F - 1d4878497b07fdb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Ingenious_Build_Task.HTTPUsersProvider.getUsers(by: Swift.String) async -&gt; Swift.Array&lt;Ingenious_Build_Task.UserModel&gt;"
+                  moduleName = "Ingenious.Build.Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XcodeProj/Ingenious.Build.Task/Ingenious.Build.Task/Data/UserProviding/HTTPUsersProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  uuid = "63615DF2-0DED-485E-8F94-54E2A0A91E6F - d6ac9acbc9704b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Ingenious_Build_Task.HTTPUsersProvider.getUsers(by: Swift.String) async -&gt; Swift.Array&lt;Ingenious_Build_Task.UserModel&gt;"
+                  moduleName = "Ingenious.Build.Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XcodeProj/Ingenious.Build.Task/Ingenious.Build.Task/Data/UserProviding/HTTPUsersProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "63615DF2-0DED-485E-8F94-54E2A0A91E6F - 1c66acb5556eb9b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Ingenious_Build_Task.HTTPUsersProvider.getUsers(by: Swift.String) async -&gt; Swift.Array&lt;Ingenious_Build_Task.UserModel&gt;"
+                  moduleName = "Ingenious.Build.Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XcodeProj/Ingenious.Build.Task/Ingenious.Build.Task/Data/UserProviding/HTTPUsersProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  uuid = "63615DF2-0DED-485E-8F94-54E2A0A91E6F - 9c8c7902a241dbb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Ingenious_Build_Task.HTTPUsersProvider.getUsers(by: Swift.String) async -&gt; Swift.Array&lt;Ingenious_Build_Task.UserModel&gt;"
+                  moduleName = "Ingenious.Build.Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/max/Documents/XcodeProj/Ingenious.Build.Task/Ingenious.Build.Task/Data/UserProviding/HTTPUsersProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
