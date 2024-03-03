@@ -1,6 +1,6 @@
 # Swift + SwiftUI app that allows searching GitHub users
 ## TechStack
-Architecture: MVVM.
+Architecture: MVVM.  
 Tech Stack: Swift, SwiftUI, SwiftData, Combine, async/await.
 
 ## Details
@@ -14,13 +14,15 @@ Tech Stack: Swift, SwiftUI, SwiftData, Combine, async/await.
 
 ## Modularisation
 Project could be easily converted to multi-module application because the code is already structured applying **Dependency Rule** and **Clean Architecture Principles** [1].  
-Possible structure of modules, from high-level to low-level:  
+Possible structure of modules, from high-level to low-level where dependencies pointed **strictly** inwards:  
 App -> SearchFeature -> Data -> Domain
 
 ## Out of Scope
-- Error handling
-- Fancy UI
-- Tests
+- Error handling.
+- Fancy UI.
+- Tests.
+- Fancy commit structure.
+- Older iOS Versions.
 
 Sources: 
 1. [Clean Architecture. The Dependency Rule](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
