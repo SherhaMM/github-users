@@ -10,7 +10,10 @@ Tech Stack: Swift, SwiftUI, SwiftData, Combine, async/await.
   - DataStore (abstracts actual implementation of how data stored). See `protocol UserDetailsStoring` implemented by `DBUserDetailsStore`.
 - UI models separated from DB Models. Naming for data models `nnnModel`.  Naming for DB models `nnnObject`.
 - Implemented caching of the search result and user details.  
-- User Details Screen loads data from cache first and then from network. User Search always uses data from network.  
+- User Details Screen loads data from cache first and then from network. User Search always uses data from network.
+- Using my own dependency called CommonServices that consists of:
+  - NetworkClient – generic network layer.
+  - NetworkMonitor - simple network monitor, that is basically wrapper around NWPathMonitor.
 
 ## Modularisation
 Project could be easily converted to multi-module application because the code is already structured applying **Dependency Rule** and **Clean Architecture Principles** [1].  
